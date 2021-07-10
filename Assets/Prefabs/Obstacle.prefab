@@ -866,6 +866,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolution: 121
+  autoUpdate: 1
+  shapeSettings: {fileID: 11400000, guid: 4c5e4945860837148b62e4481173a9c6, type: 2}
+  colourSettings: {fileID: 11400000, guid: e76b3d9212c8af6428f67e5fbb9139df, type: 2}
+  shapeSettingsFoldout: 0
+  colourSettingsFoldout: 0
   meshFilters:
   - {fileID: 2460284125497799795}
   - {fileID: 2460284126449443615}

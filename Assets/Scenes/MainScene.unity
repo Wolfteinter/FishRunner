@@ -407,13 +407,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 50, z: -80}
+  m_LocalRotation: {x: 0.24091353, y: -0.444476, z: -0.004955495, w: 0.862773}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 24.287, y: -57.57, z: -14.143}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4783da627131d4a9e1da170a03196a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 706763205781945997, guid: b778f33bcda111c4ba4270c06ac00354, type: 3}
   terrain: {fileID: 6060127177858305590, guid: ae7e83e79cc02f449a718fe84ec3f438, type: 3}
 --- !u!4 &1298388225
 Transform:
@@ -606,15 +606,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRadius: 10
-  spawnCount: 10
-  windowSizeX: 80
-  windowSizeY: 80
+  spawnCount: 1
+  windowSizeX: 350
+  windowSizeYDown: 40
+  windowSizeYUp: 400
   prefab: {fileID: 5938144794478785077, guid: a68eabc10bd1b4dcaa03efa0e2052ddb, type: 3}
   colour: {r: 0, g: 0, b: 0, a: 0}
   camera: {fileID: 963194225}
   settings: {fileID: 11400000, guid: 002b07db1e59dc843bdc1280146eef45, type: 2}
   compute: {fileID: 7200000, guid: 59e9e2cf2759d8a4eaa53ca6bd1dc979, type: 3}
-  offset: {x: 0, y: 20, z: -60}
+  offset: {x: 0, y: 0, z: -80}
   smoothSpeed: 0.125
 --- !u!4 &1748998055
 Transform:
@@ -624,7 +625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748998053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 100, z: 200}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
